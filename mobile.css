@@ -89,8 +89,8 @@ nav:hover > .burger-icon {
 .closeButton {
     position: relative;
     float: right;
-    top: 1em;
-    left: -1.8em;
+    top: .8em;
+    left: -1.2em;
     z-index: 2;
     font-size: 1.8em;
     display: none;
@@ -101,6 +101,7 @@ nav:hover > .burger-icon {
 }
 
 nav:hover > .closeButton {
+    animation: 5s ease-in-out 0s delayShow;
     display: inline;
 }
 
@@ -132,4 +133,26 @@ main {
     nav:hover > .navLinks {
         width: 75vw;
     } 
+}
+
+@keyframes delayShow {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    9% {
+        display: none;
+        opacity: 0;
+    }
+
+    10% {
+        display: inline;
+        opacity: 0;
+    }
+
+    100% {
+        display: inline;
+        opacity: 100;
+    }
 }
