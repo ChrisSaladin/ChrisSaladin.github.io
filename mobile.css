@@ -97,6 +97,7 @@ nav:hover > .burger-icon {
     color: rgb(255, 0, 0);
     font-weight: bold;
     border-bottom: .1em solid black;
+    cursor: pointer;
 }
 
 nav:hover > .closeButton {
