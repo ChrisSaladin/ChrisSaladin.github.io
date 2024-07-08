@@ -1,0 +1,134 @@
+@media screen and (max-width: 1000px) {
+    
+/* style the header */
+header {
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+    border-top: .01vh solid black;
+    border-bottom: .01vh solid black;
+    text-align: center;
+    min-height: 4vh;
+}
+
+/* style the text within the header */
+header h1 {
+    font-size: 3vh;
+    padding: .3vh 3vh 0 3vh;
+    float: unset;
+    padding-left: 2em;
+}
+
+/* style the nav bar */
+nav {
+    position: fixed;
+    font-size: 2vh;
+    display: block;
+    text-align: center;
+    top: 1em;
+}
+
+nav ul {
+    text-decoration: none;
+    padding: 1em;
+}
+
+nav ul li {
+    display: block;
+    padding: .5em 0;
+}
+
+nav ul li a {
+    padding: 0.3em .5em;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    background-color: darkgray;
+    border-radius: 1em;
+}
+
+.burger-icon {
+    display: block;
+    height: 1.5em;
+    float: left;
+    position: absolute;
+    top: -.7em;
+    left: 1em;
+}
+
+.navLinks {
+    text-align: left;
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+    left: -3em;
+    background-color: whitesmoke;
+    border: .1em solid aliceblue;
+    height: 96vh;
+    margin-top: .98em;
+    overflow-y: scroll;
+}
+
+nav:hover {
+    transition: 1s;
+}
+
+nav:hover > .navLinks {
+    width: 50vw;
+    transition: 1s;
+    position: relative;
+    left: 0em;
+    border: .1em solid black;
+} 
+
+nav:hover > .burger-icon {
+   opacity: 0;
+}
+
+.closeButton {
+    position: relative;
+    float: right;
+    top: 1em;
+    left: -2em;
+    z-index: 2;
+    font-size: 1.8em;
+    display: none;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    border-bottom: .1em solid black;
+}
+
+nav:hover > .closeButton {
+    display: inline;
+}
+
+.closeButton:hover + .navLinks {
+    width: 0;
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+    left: -3em;
+    display: none;
+}
+
+/* Style main */
+main {
+    width: 95%;
+}
+
+
+}
+
+@media screen and (max-width: 300px) {
+    header h1 {
+        font-size: 2vh;
+        padding: .7vh 3vh 0 3vh;
+        float: unset;
+        padding-left: 2em;
+    }
+
+    nav:hover > .navLinks {
+        width: 75vw;
+    } 
+}

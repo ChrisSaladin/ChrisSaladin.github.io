@@ -1,0 +1,93 @@
+/* Set styles that affect the entire page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style the header */
+header {
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+    border-top: .01vh solid black;
+    border-bottom: .01vh solid black;
+}
+
+/* style the text within the header */
+header h1 {
+    font-size: 3vh;
+    padding: .3vh 3vh 0 3vh;
+    float: left;
+}
+
+/* style the nav bar */
+nav {
+    position: relative;
+    font-size: 2vh;
+    display: block;
+}
+
+nav ul {
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: .5em 0;
+}
+
+nav ul li a {
+    padding: 0.3em .5em;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    background-color: darkgray;
+    border-radius: 1em;
+}
+
+.burger-icon {
+    display: none;
+}
+
+.closeButton {
+    display: none;
+}
+
+/* Style the main section */
+main {
+   width: 75%; 
+   margin: .05em auto;
+   font-size: 1.5em;
+   min-height: 87vh;
+   padding: 0 1em;
+   background-color: rgb(236, 236, 236);
+}
+
+main p {
+    padding: 1em 0;
+}
+
+
+/* style the footer */
+footer {
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 1.5vh;
+}
+
+footer ul {
+    text-decoration: none;
+    padding: 1vh 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.5em;
+}
+
+footer a {
+    color: darkgray;
+}
