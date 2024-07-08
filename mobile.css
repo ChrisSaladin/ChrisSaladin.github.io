@@ -71,12 +71,12 @@ nav ul li a:hover {
 }
 
 nav:hover {
-    transition: 1s;
+    transition: .7s;
 }
 
 nav:hover > .navLinks {
     width: 50vw;
-    transition: 1s;
+    transition: .7s;
     position: relative;
     left: 0em;
     border: .1em solid black;
