@@ -103,7 +103,7 @@ nav:hover > .closeButton {
     display: inline;
 }
 
-.closeButton:hover + .navLinks {
+.closeButton:active + .navLinks {
     width: 0;
     width: 0;
     overflow: hidden;
