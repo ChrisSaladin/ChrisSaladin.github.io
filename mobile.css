@@ -101,7 +101,7 @@ nav:hover > .burger-icon {
 }
 
 nav:hover > .closeButton {
-    animation: 5s ease-in-out 0s delayShow;
+    animation: 3s ease-in-out 0s delayShow;
     display: inline;
 }
 
