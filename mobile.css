@@ -71,12 +71,12 @@ nav ul li a:hover {
 }
 
 nav:hover {
-    transition: .3s;
+    transition: 1s;
 }
 
 nav:hover > .navLinks {
     width: 50vw;
-    transition: .3s;
+    transition: 1s;
     position: relative;
     left: 0em;
     border: .1em solid black;
@@ -90,7 +90,7 @@ nav:hover > .burger-icon {
     position: relative;
     float: right;
     top: 1em;
-    left: -2em;
+    left: -1.8em;
     z-index: 2;
     font-size: 1.8em;
     display: none;
