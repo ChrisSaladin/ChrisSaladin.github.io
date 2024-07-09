@@ -5,7 +5,7 @@ Feel free to clone this repository and use it as a template for your own website
 Here are a list of features that have been taken care of by the template.
 ========================================================================
 
-#1 - Non-resisable header
+#1 - Non-resisable header<br>
   When someone scrolls in or out, the content in the middle of the page will change size, but the header and footer will remain static - this is to preserve style throughout multiple browsers and multiple zoom levels.
 #2 - Footer that sticks to the bottom of the screen - but is not always visible AND stays at the bottom when you scroll out.
   When building a footer, it is very easy to make a footer "stick" to the bottom AND always be visible. It's less fun to try to make a footer that sticks to the bottom and only is visible when you scroll all the way to the bottom of the page...oh and stays at the bottom no matter how far out you zoom!
