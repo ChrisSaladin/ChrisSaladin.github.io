@@ -6,11 +6,11 @@ Here are a list of features that have been taken care of by the template.
 ========================================================================
 
 #1 - Non-resisable header<br>
-  When someone scrolls in or out, the content in the middle of the page will change size, but the header and footer will remain static - this is to preserve style throughout multiple browsers and multiple zoom levels.<br>
+  When someone scrolls in or out, the content in the middle of the page will change size, but the header and footer will remain static - this is to preserve style throughout multiple browsers and multiple zoom levels.<br><br>
 #2 - Footer that sticks to the bottom of the screen - but is not always visible AND stays at the bottom when you scroll out.<br>
-  When building a footer, it is very easy to make a footer "stick" to the bottom AND always be visible. It's less fun to try to make a footer that sticks to the bottom and only is visible when you scroll all the way to the bottom of the page...oh and stays at the bottom no matter how far out you zoom!<br>
+  When building a footer, it is very easy to make a footer "stick" to the bottom AND always be visible. It's less fun to try to make a footer that sticks to the bottom and only is visible when you scroll all the way to the bottom of the page...oh and stays at the bottom no matter how far out you zoom!<br><br>
 #3 - Nav Bar<br>
-  This template comes with a side-scrolling nav bar when viewing on screens wider than 1000px.<br>
+  This template comes with a side-scrolling nav bar when viewing on screens wider than 1000px.<br><br>
 #4 - Mobile Nav bar with pop-out side menu<br>
   The template also features a mobile nav bar that appears once the screen has been adjusted to less than 1000px.<br>
   The nav bar compresses itself into a menu witha  burger icon.<br>
