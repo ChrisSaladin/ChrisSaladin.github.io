@@ -6,13 +6,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* style the body */
+body {
+    background-color: #282A36;
+}
+
 /* style the header */
 header {
-    background-color: aliceblue;
+    background-color: #44475A;
     position: sticky;
     top: 0;
-    border-top: .01vh solid black;
-    border-bottom: .01vh solid black;
+    border-top: .01vh solid #6272A4;
+    border-bottom: .01vh solid #6272A4;
 }
 
 /* style the text within the header */
@@ -20,6 +25,7 @@ header h1 {
     font-size: 3vh;
     padding: .3vh 3vh 0 1vh;
     float: left;
+    color: #F8F8F2;
 }
 
 /* style the nav bar */
@@ -43,12 +49,13 @@ nav ul li {
 nav ul li a {
     padding: 0.3em .5em;
     cursor: pointer;
+    color: #F8F8F2;
     text-decoration: none;
-    color: black;
 }
 
 nav ul li a:hover {
-    background-color: darkgray;
+    background-color: #6272A4;
+    color: black;
     border-radius: 1em;
 }
 
@@ -70,8 +77,9 @@ main {
    margin: 0.5vh auto;
    font-size: 1.5em;
    padding: 0 1em;
-   background-color: rgb(236, 236, 236);
+   background-color: #44475A;
    min-height: 88.1vh;
+   color: #F8F8F2;
 }
 
 main p {
@@ -81,7 +89,7 @@ main p {
 /* style the footer */
 footer {
     text-align: center;
-    background-color: aliceblue;
+    background-color: #44475A;
     font-size: 1.5vh;
 
 }
@@ -97,7 +105,7 @@ footer ul li {
 }
 
 footer a {
-    color: darkgray;
+    color: #F8F8F2;
 }
 
 /* Style the page when the width is smaller than 1000px */
@@ -106,11 +114,11 @@ footer a {
     
     /* style the header */
     header {
-        background-color: aliceblue;
+        background-color: #44475A;
         position: sticky;
         top: 0;
-        border-top: .01vh solid black;
-        border-bottom: .01vh solid black;
+        border-top: .01vh solid #6272A4;
+        border-bottom: .01vh solid #6272A4;
         text-align: center;
         min-height: 4vh;
     }
@@ -148,7 +156,7 @@ footer a {
     }
     
     nav ul li a:hover {
-        background-color: darkgray;
+        background-color: #6272A4;
         border-radius: 1em;
     }
     
@@ -167,8 +175,8 @@ footer a {
         overflow: hidden;
         position: absolute;
         left: -3em;
-        background-color: whitesmoke;
-        border: .1em solid aliceblue;
+        background-color: #282A36;
+        border: .1em solid #6272A4;
         height: 96.05vh;
         margin-top: .98em;
         overflow-y: scroll;
@@ -198,9 +206,9 @@ footer a {
         z-index: 2;
         font-size: 1.8em;
         display: none;
-        color: rgb(190, 0, 0);
+        color: #FF5555;
         font-weight: bold;
-        border-bottom: .1em solid black;
+        border-bottom: .1em solid #6272A4;
         cursor: pointer;
     }
     
