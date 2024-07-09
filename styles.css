@@ -183,7 +183,10 @@ footer a {
         transition: 0.5s;
         position: relative;
         left: 0em;
-        border: .1em solid black;
+        border-top: .1em solid black; 
+        border-bottom: .1em solid black; 
+        border-right: .1em solid black; 
+        border-left: none;
     } 
     
     nav:hover > .burger-icon {
