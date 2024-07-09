@@ -65,28 +65,28 @@ nav ul li a:hover {
 /* Style the main section */
 main {
    width: 75%; 
-   margin: .05em auto;
+   margin: 0.5vh auto;
    font-size: 1.5em;
-   min-height: 90vh;
    padding: 0 1em;
    background-color: rgb(236, 236, 236);
+   min-height: 88.1vh;
 }
 
 main p {
     padding: 1em 0;
 }
 
-
 /* style the footer */
 footer {
     text-align: center;
     background-color: aliceblue;
     font-size: 1.5vh;
+
 }
 
 footer ul {
     text-decoration: none;
-    padding: 1vh 0;
+    padding: 1.5vh 0;
 }
 
 footer ul li {
