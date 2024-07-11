@@ -364,7 +364,6 @@ footer a {
 
     .trigger:active + .hidden {
         display: block;
-        animation: 1s ease-out 0s delayShow2;
     }
 
     .drp {
