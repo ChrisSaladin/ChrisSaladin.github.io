@@ -100,7 +100,6 @@ nav ul li a:hover {
     padding: .5em;
 }
 
-
 /* Style the main section */
 main {
    width: 75%; 
@@ -108,7 +107,7 @@ main {
    font-size: 1.5em;
    padding: 0 1em;
    background-color: rgb(236, 236, 236);
-   min-height: 88.1vh;
+   min-height: 89.7vh;
 }
 
 main p {
@@ -238,6 +237,7 @@ footer a {
     nav ul li a {
         padding: 0.3em .5em;
         cursor: pointer;
+        margin-left: .5em;
     }
     
     nav ul li a:hover {
@@ -319,7 +319,7 @@ footer a {
         position: relative;
         border-bottom: unset;
         padding-top: 1.5em;
-        top: -1.5em;
+        top: -1.2em;
         margin-bottom: 0;
         padding-bottom: 0;
         border-left: .2em solid black;
@@ -329,7 +329,7 @@ footer a {
 
     .hidden ul {
         border: none;
-        height: 100vh;
+        height: 150%;
     }
 
     .hidden:hover {
@@ -337,11 +337,12 @@ footer a {
         width: fit-content;
         height: fit-content;
     }
-
+/*
     .hidden ul li:last-child {
         border-bottom: .1em solid black;
     }
 
+*/
     .hidden ul li:first-child {
         border-top: .1em solid black;
     }
@@ -350,6 +351,7 @@ footer a {
         border-left: .1em solid black;
         border-right: .1em solid black;
     }
+
 
     .trigger:active + .hidden {
         display: block;

@@ -6,14 +6,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* style the body */
+/* Style the body */
 body {
     background-color: #282A36;
 }
 
 /* style the header */
 header {
-    background-color: #44475A;
+    background-color: #282A36;
     position: sticky;
     top: 0;
     border-top: .01vh solid #6272A4;
@@ -49,13 +49,12 @@ nav ul li {
 nav ul li a {
     padding: 0.3em .5em;
     cursor: pointer;
-    color: #F8F8F2;
     text-decoration: none;
+    color: #F8F8F2;
 }
 
 nav ul li a:hover {
     background-color: #6272A4;
-    color: black;
     border-radius: 1em;
 }
 
@@ -68,7 +67,43 @@ nav ul li a:hover {
 }
 
 .closeButton:hover {
-    text-shadow: .07em .07em .1em black;
+    text-shadow: .07em .07em .1em #282A36;
+}
+
+/* style the drop menu */
+.hidden {
+    position: absolute;
+    height: 0;
+    width: 0;
+    display: none;
+}
+
+.hidden:hover {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
+
+.drp:active > .hidden {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+}
+
+.drp:hover > .hidden a {
+    animation: .5s ease-out 0s delayShow2;
+}
+
+.hidden ul {
+    overflow-y: scroll;
+    max-height: 50vh;
+    border: .1em solid #6272A4;
+}
+
+.hidden ul li {
+    display: block;
+    background-color: #44475A;
+    padding: .5em;
 }
 
 /* Style the main section */
@@ -78,7 +113,7 @@ main {
    font-size: 1.5em;
    padding: 0 1em;
    background-color: #44475A;
-   min-height: 88.1vh;
+   min-height: 89.7vh;
    color: #F8F8F2;
 }
 
@@ -89,8 +124,9 @@ main p {
 /* style the footer */
 footer {
     text-align: center;
-    background-color: #44475A;
+    background-color: #282A36;
     font-size: 1.5vh;
+    border-top: .1em solid #6272A4;
 
 }
 
@@ -108,13 +144,70 @@ footer a {
     color: #F8F8F2;
 }
 
+/* Style the page ONLY when it is NOT smaller than 100px */
+
+@media screen and (min-width: 1000px){
+
+    .drp:hover > .hidden {
+        width: fit-content;
+        height: fit-content;
+        display: block;
+        padding-top: .5em;
+    }
+
+    .hidden ul {
+        background-color: #44475A;
+        height: 50vh;
+    }
+
+    .hidden ul li .drp .hidden {
+        position: absolute;
+        left: 6.3em;
+        top: 0em;
+        padding-left: .9em;
+    }
+
+    .hidden ul li .drp .hidden ul {
+        height: 50vh;
+    }
+
+    .hidden ul li {
+        padding: 0;
+        margin: 0;
+        background-color: #44475A;
+    }
+
+    .hidden ul li:hover {
+        background-color: #6272A4;
+    }
+
+    .hidden ul li a:hover {
+        background-color: unset;
+    }
+
+    .hidden ul li .drp .hidden ul {
+        border-left: none;
+    }
+
+    .hidden ul li .drp .hidden ul li {
+        border-left: .1em solid #6272A4;
+    }
+
+    .hidden ul li a {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        color: #F8F8F2;
+    }
+}
+
 /* Style the page when the width is smaller than 1000px */
 
 @media screen and (max-width: 1000px) {
     
     /* style the header */
     header {
-        background-color: #44475A;
+        background-color: #282A36;
         position: sticky;
         top: 0;
         border-top: .01vh solid #6272A4;
@@ -153,13 +246,15 @@ footer a {
     nav ul li a {
         padding: 0.3em .5em;
         cursor: pointer;
+        margin-left: .5em;
+        color: #F8F8F2;
     }
     
     nav ul li a:hover {
         background-color: #6272A4;
         border-radius: 1em;
     }
-    
+
     .burger-icon {
         display: block;
         height: 1.5em;
@@ -175,7 +270,7 @@ footer a {
         overflow: hidden;
         position: absolute;
         left: -3em;
-        background-color: #282A36;
+        background-color: #44475A;
         border: .1em solid #6272A4;
         height: 96.05vh;
         margin-top: .98em;
@@ -187,7 +282,7 @@ footer a {
     }
     
     nav:hover > .navLinks {
-        width: 50vw;
+        width: 90vw;
         transition: 0.5s;
         position: relative;
         left: 0em;
@@ -228,7 +323,56 @@ footer a {
         left: -3em;
         display: none;
     }
-    
+
+    /* Style the drop menu */
+    .hidden {
+        position: relative;
+        border-bottom: unset;
+        padding-top: 1.5em;
+        top: -1.2em;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-left: .2em solid #6272A4;
+        border-bottom: .2em solid #6272A4;
+        font-size: .9em;
+    }
+
+    .hidden ul {
+        border: none;
+        height: 150%;
+    }
+
+    .hidden:hover {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+    }
+/*
+    .hidden ul li:last-child {
+        border-bottom: .1em solid #6272A4;
+    }
+
+*/
+    .hidden ul li:first-child {
+        border-top: .1em solid #6272A4;
+    }
+
+    .hidden ul li {
+        border-left: .1em solid #6272A4;
+        border-right: .1em solid #6272A4;
+    }
+
+
+    .trigger:active + .hidden {
+        display: block;
+        animation: 1s ease-out 0s delayShow2;
+    }
+
+    .drp {
+        width: fit-content;
+        height: fit-content;
+    }
+
     /* Style main */
     main {
         width: 95%;
@@ -249,6 +393,16 @@ footer a {
             width: 75vw;
         } 
     }
+
+/* style for only mobile devices */
+@media only screen and (hover: none) and (pointer: coarse){
+
+    .drp:hover > .hidden {
+        width: fit-content;
+        height: fit-content;
+        display: block;
+    }
+}
 
 /* create animation to slowly fade in the close button */
 
@@ -272,5 +426,15 @@ footer a {
     100% {
         display: inline;
         opacity: 100;
+    }
+}
+
+@keyframes delayShow2 {
+    0% {
+        visibility: hidden;
+    }
+    
+    100% {
+        visibility: visible;
     }
 }
