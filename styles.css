@@ -272,7 +272,7 @@ footer a {
     }
     
     nav:hover > .navLinks {
-        width: 90vw;
+        width: 70vw;
         transition: 0.5s;
         position: relative;
         left: 0em;
@@ -380,7 +380,7 @@ footer a {
         }
     
         nav:hover > .navLinks {
-            width: 75vw;
+            width: 90vw;
         } 
     }
 
