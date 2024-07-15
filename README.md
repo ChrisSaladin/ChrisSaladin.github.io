@@ -4,7 +4,6 @@ Feel free to clone this repository and use it as a template for your own website
 
 Here are a list of features that have been taken care of by the template.
 ========================================================================
-========================================================================
 
 #1 - Non-resisable header<br>
   When someone scrolls in or out, the content in the middle of the page will change size, but the header and footer will remain static - this is to preserve style throughout multiple browsers and multiple zoom levels.<br><br>
