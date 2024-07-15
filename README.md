@@ -1,8 +1,9 @@
 This basic template handles some of the most annoying things to figure out when building a web-page.
 Feel free to clone this repository and use it as a template for your own website.
-
+========================================================================
 
 Here are a list of features that have been taken care of by the template.
+========================================================================
 ========================================================================
 
 #1 - Non-resisable header<br>
