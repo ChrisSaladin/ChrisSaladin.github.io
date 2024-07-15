@@ -6,13 +6,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* style the body */
+body {
+    background-color: #282A36;
+}
+
 /* style the header */
 header {
-    background-color: aliceblue;
+    background-color: #282A36;
     position: sticky;
     top: 0;
-    border-top: .01vh solid black;
-    border-bottom: .01vh solid black;
+    border-top: .01vh solid #6272A4;
+    border-bottom: .01vh solid #6272A4;
 }
 
 /* style the text within the header */
@@ -20,6 +25,7 @@ header h1 {
     font-size: 3vh;
     padding: .3vh 3vh 0 1vh;
     float: left;
+    color: #F8F8F2;
 }
 
 /* style the nav bar */
@@ -44,11 +50,11 @@ nav ul li a {
     padding: 0.3em .5em;
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: #F8F8F2;
 }
 
 nav ul li a:hover {
-    background-color: darkgray;
+    background-color: #6272A4;
     border-radius: 1em;
 }
 
@@ -75,7 +81,8 @@ main {
    margin: 0.5vh auto;
    font-size: 1.5em;
    padding: 0 1em;
-   background-color: rgb(236, 236, 236);
+   background-color: #44475A;
+   color: #F8F8F2;
    min-height: 88.1vh;
    text-align: center;
 }
@@ -87,9 +94,9 @@ main p {
 /* style the footer */
 footer {
     text-align: center;
-    background-color: aliceblue;
+    background-color: #282A36;
     font-size: 1.5vh;
-
+    border-top: .01vh solid #6272A4;
 }
 
 footer ul {
@@ -103,7 +110,7 @@ footer ul li {
 }
 
 footer a {
-    color: darkgray;
+    color: #F8F8F2;
 }
 
 /* Style the page ONLY when it is NOT smaller than 100px */
@@ -143,11 +150,11 @@ footer a {
     
     /* style the header */
     header {
-        background-color: aliceblue;
+        background-color: #282A36;
         position: sticky;
         top: 0;
-        border-top: .01vh solid black;
-        border-bottom: .01vh solid black;
+        border-top: none;
+        border-bottom: .01vh solid #6272A4;
         text-align: center;
         min-height: 4vh;
     }
@@ -198,7 +205,7 @@ footer a {
     }
     
     nav ul li a:hover {
-        background-color: darkgray;
+        background-color: #6272A4;
         border-radius: 1em;
     }
 
@@ -217,8 +224,8 @@ footer a {
         overflow: hidden;
         position: absolute;
         left: -3em;
-        background-color: whitesmoke;
-        border: .1em solid aliceblue;
+        background-color: #44475A;
+        border: .1em solid #6272A4;
         height: 96.05vh;
         margin-top: .98em;
         overflow-y: scroll;
@@ -233,9 +240,9 @@ footer a {
         transition: 0.5s;
         position: relative;
         left: 0em;
-        border-top: .1em solid black; 
-        border-bottom: .1em solid black; 
-        border-right: .1em solid black; 
+        border-top: .1em solid #6272A4; 
+        border-bottom: .1em solid #6272A4; 
+        border-right: .1em solid #6272A4; 
         border-left: none;
     } 
     
@@ -251,9 +258,9 @@ footer a {
         z-index: 2;
         font-size: 1.8em;
         display: none;
-        color: rgb(190, 0, 0);
+        color: #FF5555;
         font-weight: bold;
-        border-bottom: .1em solid black;
+        border-bottom: .1em solid #6272A4;
         cursor: pointer;
     }
     
@@ -279,8 +286,8 @@ footer a {
         top: -1.6em;
         margin-bottom: 0;
         padding-bottom: 0;
-        border-left: .2em solid black;
-        border-bottom: .2em solid black;
+        border-left: .2em solid #6272A4;
+        border-bottom: .2em solid #6272A4;
         font-size: .9em;
     }
 
@@ -298,13 +305,13 @@ footer a {
     }
 
     .hidden ul li:first-child {
-        border-top: .1em solid black;
+        border-top: .1em solid #6272A4;
     }
 
     .hidden ul li {
-        border-right: .1em solid black;
+        border-right: .1em solid #6272A4;
         display: block;
-        background-color: whitesmoke;
+        background-color: #44475A;
         padding: .5em;
     }
 
