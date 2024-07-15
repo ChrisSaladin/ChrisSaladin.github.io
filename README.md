@@ -19,5 +19,4 @@ Here are a list of features that have been taken care of by the template.
   The "close" button for the mobile nav bar also has an animation applied to it so that it does not become clickable until after the nav bar has finished opening - this is to prevent an accidental "fat finger" while opening the menu.<br>
 <br>
 <br>
-<br>
 This entire page uses absolutely 0 JavaScript to make any of this work!<br>
