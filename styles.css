@@ -80,14 +80,6 @@ main {
    text-align: center;
 }
 
-main h4, main h5 {
-    background-color: white;
-    border-radius: .5em;
-    width: fit-content;
-    margin: 0 auto;
-    padding: 0 .5em;
-}
-
 main p {
     padding: .5em 0;
 }
