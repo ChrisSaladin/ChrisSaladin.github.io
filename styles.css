@@ -80,8 +80,16 @@ main {
    text-align: center;
 }
 
+main h4, main h5 {
+    background-color: rgba(255, 255, 0, 0.25);
+    border-radius: .5em;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 .5em;
+}
+
 main p {
-    padding: 1em 0;
+    padding: .5em 0;
 }
 
 /* style the footer */
@@ -89,7 +97,7 @@ footer {
     text-align: center;
     background-color: aliceblue;
     font-size: 1.5vh;
-
+    border-top: .01vh solid black;
 }
 
 footer ul {
