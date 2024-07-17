@@ -16,11 +16,18 @@ body {
 }
 
 /* style the header */
+.before-header {
+    background-color: #282A36;
+    border-top: .01vh solid #6272A4;
+    font-size: 2.5vh;
+    color: #F8F8F2;
+    text-align: center;
+}
+
 header {
     background-color: #282A36;
     position: sticky;
     top: 0;
-    border-top: .01vh solid #6272A4;
     border-bottom: .01vh solid #6272A4;
 }
 
@@ -185,7 +192,7 @@ footer a {
     }
 
     nav {
-        position: fixed;
+        position: absolute;
         font-size: 2vh;
         display: block;
         text-align: center;
@@ -218,7 +225,7 @@ footer a {
         height: 1.5em;
         float: left;
         position: absolute;
-        top: -.7em;
+        top: -.6em;
         left: 1em;
     }
     
