@@ -17,11 +17,20 @@ body {
 
 /* style the header */
 .before-header {
-    background-color: #282A36;
-    border-top: .01vh solid #6272A4;
+    position: relative;
+    top: 0;
+    background-color: #44475A;
+    border: .01vh dotted #6272A4;
     font-size: 2.5vh;
     color: #F8F8F2;
     text-align: center;
+    margin: .5em;
+    border-radius: .5em;
+}
+
+.before-header p {
+    display: inline-block;
+    margin: 1.5em 1em;
 }
 
 header {

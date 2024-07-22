@@ -8,10 +8,19 @@
 
 /* style the header */
 .before-header {
-    background-color: aliceblue;
-    border-top: .01vh solid black;
+    position: relative;
+    top: 0;
+    background-color: rgb(236, 236, 236);
+    border: .01vh dotted black;
     font-size: 2.5vh;
     text-align: center;
+    margin: .5em;
+    border-radius: .5em;
+}
+
+.before-header p {
+    display: inline-block;
+    margin: 1.5em 1em;
 }
 
 header {
