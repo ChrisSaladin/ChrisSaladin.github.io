@@ -20,14 +20,16 @@
 
 .before-header p {
     display: inline-block;
+    margin: 0em 1em;
     margin: 1.5em 1em;
 }
 
 header {
     background-color: aliceblue;
     position: sticky;
-    top: 0;
+    top: -.1em;
     border-bottom: .01vh solid black;
+    border-top: .01vh solid black;
 }
 
 /* style the text within the header */
@@ -160,7 +162,7 @@ footer a {
     header {
         background-color: aliceblue;
         position: sticky;
-        top: 0;
+        top: -.1em;
         border-bottom: .01vh solid black;
         text-align: center;
         min-height: 4vh;
@@ -192,7 +194,7 @@ footer a {
         font-size: 2vh;
         display: block;
         text-align: center;
-        top: 1em;
+        top: .9em;
     }
     
     nav ul {
