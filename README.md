@@ -1,6 +1,7 @@
 This basic template provides a stylish start to building a website.
 Feel free to clone this repository and use it as a template for your own project.
 ========================================================================
+Click <a href="chrissaladin.github.io/" target="_blank">here</a> to preview the page!
 
 Here are a list of features that have been taken care of by the template.
 ========================================================================
