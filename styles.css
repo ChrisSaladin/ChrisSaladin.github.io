@@ -50,6 +50,7 @@ nav ul {
     text-decoration: none;
     overflow: auto;
     white-space: nowrap;
+    overflow-y: hidden;
 }
 
 nav ul li {
