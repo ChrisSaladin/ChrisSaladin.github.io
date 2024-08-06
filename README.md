@@ -1,3 +1,4 @@
+========================================================================
 These templates provides a stylish start to building a website.
 Feel free to clone this repository and use any of the templates as a start for your own project website!
 ========================================================================
