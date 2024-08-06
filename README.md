@@ -1,6 +1,7 @@
 These templates provides a stylish start to building a website.
 Feel free to clone this repository and use any of the templates as a start for your own project website!
 ========================================================================
+
 Note: Currently, there is only one website here - Responsive-No-JS-Template. As I create more templates, the names will probably be updated and new, better pages will appear.
 Click <a href="https://chrissaladin.github.io/Responsive-No-JS-Template/index.html" target=_blank >here</a> to preview the page!
 
