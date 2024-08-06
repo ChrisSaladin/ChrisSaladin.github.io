@@ -1,9 +1,10 @@
-This basic template provides a stylish start to building a website.
-Feel free to clone this repository and use it as a template for your own project.
+These templates provides a stylish start to building a website.
+Feel free to clone this repository and use any of the templates as a start for your own project website!
 ========================================================================
-Click <a href="https://chrissaladin.github.io/index.html" target=_blank >here</a> to preview the page!
+Note: Currently, there is only one website here - Responsive-No-JS-Template. As I create more templates, the names will probably be updated and new, better pages will appear.
+Click <a href="https://chrissaladin.github.io/Responsive-No-JS-Template/index.html" target=_blank >here</a> to preview the page!
 
-Here are a list of features that have been taken care of by the template.
+Here are a list of features that have been taken care of by the Responsive-No-JS-Template.
 ========================================================================
 
 #1 - Non-resisable header<br>
