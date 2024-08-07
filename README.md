@@ -3,7 +3,7 @@
 <h1>Template .Zip files can be found in the Templates directory.</h1>
 
 <h2>Responsive-No-JS-Template</h2>
-<a href="https://ChrisSaladin.github.io/Responsive-No-JS/" target="_blank">Click here</a> to preview the page.<br>
+<a href="https://ChrisSaladin.github.io/Responsive-No-JS/index.html" target="_blank">Click here</a> to preview the page.<br>
 #1 - Non-resisable header<br>
   When someone scrolls in or out, the content in the middle of the page will change size, but the header and footer will remain static - this is to preserve style throughout multiple browsers and multiple zoom levels.<br><br>
 #2 - Footer that sticks to the bottom of the screen - but is not always visible AND stays at the bottom when you scroll out.<br>
