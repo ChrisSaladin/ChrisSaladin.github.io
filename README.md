@@ -1,7 +1,7 @@
 <h1>These templates provides a stylish start to building a website.</h1>
 <h1><Feel free to clone this repository and use any of the templates as a start for your own project website!</h1>
 
-<h2>Responsive-No-JS-Template<h2>
+<h2>Responsive-No-JS-Template</h2>
 <a href="https://ChrisSaladin.github.io/Responsive-No-JS-Template/">click here</a> to preview the page<br>
 #1 - Non-resisable header<br>
   When someone scrolls in or out, the content in the middle of the page will change size, but the header and footer will remain static - this is to preserve style throughout multiple browsers and multiple zoom levels.<br><br>
