@@ -143,7 +143,7 @@ nav ul li a:hover {
     position: relative;
     float: right;
     top: .8em;
-    left: -1.6em;
+    left: -1.4em;
     z-index: 2;
     font-size: 1.8em;
     display: none;
@@ -227,7 +227,8 @@ main {
 }
 
 main p {
-    padding: .5em 0;
+    padding: .5em 5vw;
+    text-align: justify;
 }
 
 /* style the footer */
