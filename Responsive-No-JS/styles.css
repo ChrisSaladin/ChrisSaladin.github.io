@@ -1,0 +1,320 @@
+/* Set styles that affect the entire page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style the header */
+.before-header {
+    position: relative;
+    top: 0;
+    background-color: rgb(236, 236, 236);
+    border: .01vh dotted black;
+    font-size: 2.5vh;
+    text-align: center;
+    margin: .5em;
+    border-radius: .5em;
+}
+
+.before-header p {
+    display: inline-block;
+    margin: 0em 1em;
+    margin: 1.5em 1em;
+}
+
+header {
+    background-color: aliceblue;
+    position: sticky;
+    top: -.1em;
+    border-bottom: .01vh solid black;
+    border-top: .01vh solid black;
+    text-align: center;
+    min-height: 4vh;
+}
+
+/* style the text within the header */
+header h1 {
+    font-size: 3vh;
+    padding: .3vh 3vh 0 2em;
+}
+
+/* style the nav bar */
+nav {
+    position: absolute;
+    font-size: 2vh;
+    display: block;
+    text-align: center;
+    top: .9em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+nav ul {
+    text-decoration: none;
+    padding: 1em;
+    overflow: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+nav ul li {
+    display: block;
+    padding: .5em 0;
+}
+
+nav ul li a {
+    padding: 0.3em .3em;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: .5em;
+    color: black;
+}
+
+nav ul li a:hover {
+    background-color: darkgray;
+    border-radius: 1em;
+}
+
+.burger-icon {
+    display: block;
+    height: 1.5em;
+    float: left;
+    position: absolute;
+    top: -.6em;
+    left: 1em;
+}
+
+.closeButton {
+    display: none;
+}
+
+.hidden {
+    display: none;
+    position: relative;
+    border-bottom: unset;
+    padding-top: 1.5em;
+    top: -1.6em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-left: .2em solid black;
+    border-bottom: .2em solid black;
+    font-size: .9em;
+}
+
+.hidden ul {
+    border: none;
+    height: 150%;
+    overflow-y: scroll;
+    max-height: 75vh;
+}
+
+.hidden ul li:first-child {
+    border-top: .1em solid black;
+}
+
+.hidden ul li {
+    border-right: .1em solid black;
+    display: block;
+    background-color: whitesmoke;
+    padding: .5em;
+}
+
+.navLinks {
+    text-align: left;
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+    left: -3em;
+    background-color: whitesmoke;
+    border: .1em solid aliceblue;
+    height: 96.5vh;
+    margin-top: .98em;
+    overflow-y: scroll;
+}
+
+.closeButton {
+    position: relative;
+    float: right;
+    top: .8em;
+    left: -1.6em;
+    z-index: 2;
+    font-size: 1.8em;
+    display: none;
+    color: rgb(190, 0, 0);
+    font-weight: bold;
+    border-bottom: .1em solid black;
+    cursor: pointer;
+}
+
+.drp {
+    width: 100%;
+    height: fit-content;
+}
+
+.closeButton:hover {
+    text-shadow: .07em .07em .1em black;
+}
+
+.hidden:hover {
+    display: block;
+    width: 100%;
+    height: fit-content;
+}
+
+.drp:hover > .hidden a {
+    animation: .5s ease-out 0s delayShow2;
+}
+
+nav:hover {
+    transition: 0.5s;
+}
+
+nav:hover > .navLinks {
+    width: fit-content;
+    min-width: 15vw;
+    transition: 0.5s;
+    position: relative;
+    left: 0em;
+    border-top: .1em solid black; 
+    border-bottom: .1em solid black; 
+    border-right: .1em solid black; 
+    border-left: none;
+}
+
+nav:hover > .burger-icon {
+    opacity: 0;
+}
+
+nav:hover > .closeButton {
+    animation: 3s ease-in-out 0s delayShow;
+    display: inline;
+}
+
+.drp:active > .hidden {
+    display: block;
+}
+
+.closeButton:active + .navLinks {
+    width: 0;
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+    left: -3em;
+    display: none;
+}
+
+.trigger:active + .hidden {
+    display: block;
+    border-radius: 0;
+}
+
+/* Style the main section */
+main {
+   width: 75%; 
+   margin: 0.5vh auto;
+   font-size: 1.5em;
+   padding: .5em 1em;
+   background-color: rgb(236, 236, 236);
+   min-height: 89.6vh;
+   text-align: center;
+}
+
+main p {
+    padding: .5em 0;
+}
+
+/* style the footer */
+footer {
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 1.5vh;
+    border-top: .01vh solid black;
+}
+
+footer ul {
+    text-decoration: none;
+    padding: 1.5vh 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.5em;
+}
+
+footer a {
+    color: darkgray;
+}
+
+/* Style the page when the width is smaller than 1000px */
+
+@media screen and (max-width: 1000px) {
+    /* Style main */
+    main {
+        width: 95%;
+    }
+}
+
+/* style the page when the width is less than 300px */
+    
+    @media screen and (max-width: 300px) {
+        header h1 {
+            font-size: 2vh;
+            padding-left: 2em;
+            padding-top: .5em;
+        }
+    
+        nav:hover > .navLinks {
+            width: 90vw;
+        } 
+    }
+
+/* style for only mobile devices */
+@media only screen and (hover: none) and (pointer: coarse){
+
+    .drp:hover > .hidden {
+        width: fit-content;
+        height: fit-content;
+        display: block;
+    }
+}
+
+/* create animation to slowly fade in the close button */
+
+    
+@keyframes delayShow {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    
+    9% {
+        display: none;
+        opacity: 0;
+    }
+    
+    10% {
+        display: inline;
+        opacity: 0;
+    }
+    
+    100% {
+        display: inline;
+        opacity: 100;
+    }
+}
+
+@keyframes delayShow2 {
+    0% {
+        visibility: hidden;
+    }
+    
+    100% {
+        visibility: visible;
+    }
+}
