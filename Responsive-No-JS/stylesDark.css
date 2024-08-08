@@ -29,6 +29,33 @@ body {
     margin: 1.5em 1em;
 }
 
+.widthspan {
+    display: inline-block;
+    width: 100%;
+}
+
+.author img {
+    float: left;
+    margin-left: .5em;
+    margin-top: .3em;
+    border-radius: 1.5em;
+    height: 5vh;
+}
+
+.author figcaption {
+    font-size: .8em;
+    margin-top: .7em;
+    width: 7em;
+    float: left;
+    clear: right;
+    color: #F8F8F2;
+}
+
+.author:hover {
+    opacity: 20%;
+    transition: 0.3s;
+}
+
 header {
     background-color: #44475A;
     color: #F8F8F2;
@@ -141,8 +168,8 @@ nav ul li a:hover {
     left: -10em;
     background-color: #44475A;
     border: .1em solid #6272A4;
-    height: 96vh;
-    margin-top: 2.2vh;
+    height: 96.2vh;
+    margin-top: 2.1vh;
     overflow-y: scroll;
     box-shadow: .1em .1em .3em black;
 }
