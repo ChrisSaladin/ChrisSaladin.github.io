@@ -276,13 +276,14 @@ main {
    padding: .5em 1em;
    background-color: white;
    box-shadow: .1em .1em .5em black;
-   min-height: 89.6vh;
+   min-height: 90.5vh;
    text-align: center;
 }
 
 main p {
     padding: .5em 5vw;
-    text-align: justify;
+    text-align: center;
+    line-height: 1.6;
 }
 
 /* style the footer */

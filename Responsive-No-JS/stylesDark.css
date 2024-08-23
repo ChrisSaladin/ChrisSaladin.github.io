@@ -270,14 +270,15 @@ main {
    padding: .5em 1em;
    background-color: #44475A;
    color: #F8F8F2;
-   min-height: 89.6vh;
+   min-height: 90.5vh;
    text-align: center;
    box-shadow: .1em .1em .5em black;
 }
 
 main p {
     padding: .5em 5vw;
-    text-align: justify;
+    text-align: center;
+    line-height: 1.6;
 }
 
 /* style the footer */
